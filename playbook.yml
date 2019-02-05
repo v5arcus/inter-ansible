@@ -1,0 +1,8 @@
+---
+- name: apache playbook
+  hosts: apache
+  
+  sudo: yes
+
+  roles:
+   - apache2
